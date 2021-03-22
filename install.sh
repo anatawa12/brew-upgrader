@@ -18,5 +18,8 @@ script_dir() {
 
 SCRIPT_DIR="$(script_dir)"
 
+brew install jq
+brew install gh
+
 ln -s "$SCRIPT_DIR/brew-upgrader.sh" "/usr/local/bin/brew-upgrader"
 ln -s "$SCRIPT_DIR/main.sh" "/usr/local/bin/brew-upgrader-main"
