@@ -89,7 +89,8 @@ git switch -c "upgrade-$NAME"
 git add "$FILE_PATH"
 git commit -m "upgrade $NAME to $NEWER_VERSION"
 git push -f -u myown "upgrade-$NAME"
+gh pr create --web
 git checkout "master"
-git branch -d "upgrade-$NAME"
+git branch -D "upgrade-$NAME"
 
 osascript -e "display notification \"upgrade $NAME to $NEWER_VERSION\""
