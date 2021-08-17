@@ -21,7 +21,7 @@ SCRIPT_DIR="$(script_dir)"
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/anatawa12/homebrew-cask' \
       Casks/metasequoia.rb metasequoia
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
-      Casks/adoptopenjdk8.rb adoptopenjdk8
+      Casks/temurin8.rb temurin8
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
       Casks/mi-beta.rb mi-beta
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask' \
