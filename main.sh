@@ -20,6 +20,8 @@ SCRIPT_DIR="$(script_dir)"
 
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/anatawa12/homebrew-cask' \
       Casks/metasequoia.rb metasequoia
+"$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask' \
+      Casks/temurin.rb temurin
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
       Casks/temurin8.rb temurin8
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
