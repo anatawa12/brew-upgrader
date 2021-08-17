@@ -23,6 +23,8 @@ SCRIPT_DIR="$(script_dir)"
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
       Casks/temurin8.rb temurin8
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
+      Casks/temurin11.rb temurin11
+"$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions' \
       Casks/mi-beta.rb mi-beta
 "$SCRIPT_DIR/brew-upgrader.sh" '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask' \
       Casks/mi.rb mi
